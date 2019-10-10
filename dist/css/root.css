@@ -41,14 +41,14 @@
   white-space: nowrap;
   text-align: center;
 }
-#about {
+.main-about {
   position: relative;
   height: 100vh;
   background: url(../about.jpg?1e3c3c315e907b81398464c5eaa5d991) no-repeat center;
   background-size: cover;
   overflow: hidden;
 }
-#about:after {
+.main-about:after {
   content: " ";
   position: absolute;
   left: 0;
@@ -58,9 +58,9 @@
   background-color: black;
   opacity: 0.2;
 }
-#about.overlay { overflow: visible; }
-#about.overlay .synopsis,
-#about.overlay .synopsis__inside {
+.main-about.overlay { overflow: visible; }
+.main-about.overlay .synopsis,
+.main-about.overlay .synopsis__inside {
   display: block;
   z-index: 4;
 }
@@ -245,13 +245,13 @@ body { font-family: 'Playfair', serif; }
   z-index: 5;
   cursor: pointer;
 }
-.home {
+.main-home {
   position: relative;
   height: 100vh;
   background: url(../home.jpg?65a091563b7dbd5cae85186ca3066de1) no-repeat center;
   background-size: cover;
 }
-.home:after {
+.main-home:after {
   content: " ";
   position: absolute;
   left: 0;
