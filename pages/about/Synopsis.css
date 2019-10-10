@@ -1,0 +1,31 @@
+.synopsis {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.synopsis__inside {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  display: none;
+}
+.synopsis__inside h2 {
+  font-size: 50px;
+  padding: 20px 0;
+}
+.synopsis__inside p {
+  font-size: 20px;
+  line-height: 2;
+}
+.synopsis__inside span {
+  position: absolute;
+  right: 5%;
+  top: 0;
+  font-size: 100px;
+  z-index: 5;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.aside__inside {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.aside__inside nav { float: left; }
+.aside__inside nav ul li { float: left; }
+.aside__inside nav ul li a {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+}
+.aside__inside nav ul li a img {
+  width: 36px;
+  height: 36px;
+}
+.aside__inside nav ul li a:last-child { margin-right: 0; }

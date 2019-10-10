@@ -1,0 +1,42 @@
+.intro {
+  position: absolute;
+  z-index: 2;
+  left: 5%;
+  top: 15%;
+  color: white;
+  width: 600px;
+}
+.intro__component {
+  margin-bottom: 30px;
+  opacity: 0;
+}
+.intro__component h2 {
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.intro__component p {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.intro__synopsis__more {
+  opacity: 0.8;
+  cursor: pointer;
+  font-style: italic;
+}
+.intro__component.intro__director { animation: 1s fadeInUp 0s both; }
+.intro__component.intro__date { animation: 1s fadeInUp 0.3s both; }
+.intro__component.intro__actor { animation: 1s fadeInUp 0.6s both; }
+.intro__component.intro__synopsis { animation: 1s fadeInUp 0.9s both; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

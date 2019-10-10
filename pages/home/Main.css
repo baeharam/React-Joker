@@ -1,0 +1,40 @@
+.home {
+  position: relative;
+  height: 100vh;
+  background: url('../../assets/images/home.jpg') no-repeat center;
+  background-size: cover;
+}
+.home:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.2;
+}
+.home__main h1 {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: 'Coluna';
+  font-size: 200px;
+  text-shadow: 0 10px 5px black;
+}
+.home__main h1:after {
+  content: 'JOAQUIN PHOENIX';
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Playfair', serif;
+  font-size: 0.2em;
+  white-space: nowrap;
+  text-shadow: none;
+  font-weight: 200;
+  color: whitesmoke;
+}

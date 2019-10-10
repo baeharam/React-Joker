@@ -1,0 +1,46 @@
+import React, { Component } from 'react';
+import './Synopsis.css';
+
+class Synopsis extends Component {
+
+  offOverlay = () => {
+    this.props.mainRef.current.classList.remove('overlay');
+  };
+
+  render() {
+    return (
+      <>
+        <div className="synopsis">
+          <div className="synopsis__inside">
+            <h2>Synopsis</h2>
+            <p>
+              Gotham City, 1981
+              Arthur Fleck (Joaquin Phoenix) works as a clown-for-hire for a company called Ha-Ha's. He is tasked with advertising a store by dancing and waving a sign around. The sign gets snatched by a group of punk teens, forcing Arthur to chase them into an alley. They smash the sign against his face and proceed to mercilessly kick him while he's down.
+              In this era, Gotham is struggling with crime, unemployment, and poverty. Arthur visits a social worker for his medication, as well as his ongoing mental health issues. On the bus ride home, a small child looks at Arthur. He makes silly faces that amuse the boy, but his mother tells Arthur to leave him alone. Arthur begins to laugh hysterically, and when the mother questions him, he hands her a card that explains that he has a condition that causes him to laugh the way that he does.
+              Arthur returns home where he lives with his ailing mother, Penny (Frances Conroy). They sit and watch a talk show with host Murray Franklin (Robert DeNiro). Arthur imagines himself being on the show and getting Murray's attention. In his fantasy, Arthur charms the audience and Murray by telling them that he takes care of his mother. Penny used to work for Thomas Wayne (Brett Cullen) and has written to him to try and better their living situation.
+              At Ha-Ha's, Arthur is given a gun for protection by his co-worker Randall (Glenn Fleschler) after he hears about the mugging incident.
+              Arthur is infatuated with his neighbor, single mother Sophie Dumond (Zazie Beetz). She speaks to him politely, but he is awkward and weird around her. At one point, he spends his day following her. Later, she comes by his apartment and asks if he was following her, and he admits that he was, but she doesn't seem put off by it. He invites her to a stand-up comedy show that he is performing at.
+              Arthur goes to the comedy club for his performance. He starts off by laughing uncontrollably before going off into his routine, which isn't very funny. Sophie appears to be in the audience... the only person who is laughing at Arthur's jokes.
+              Arthur later goes to a children's hospital to entertain them as a clown. He brought his gun with him, and it falls out on the floor. Arthur's boss later chews him out for this, as well as for losing the sign from the store where he got mugged. To top things off, Randall claims that Arthur got the gun himself. Arthur gets fired, and he leaves Ha-Ha's after calling Randall out on giving him the gun. Arthur's week only gets worse when he is told by his social worker that the city is cutting off funding and shutting down that facility, meaning Arthur has nowhere else to get his meds.
+              On the subway train ride home from Ha-Ha's in full clown getup, Arthur spots three young Wall Street types harassing a woman. Arthur starts laughing and draws the attention of the men, while the woman wisely flees from that car. The men approach Arthur and mock him and his laughter before they start to beat him. Arthur then pulls out his gun and shoots two of them dead before following the last guy out of the train and killing him on the stairs. In shock over what he just did, Arthur retreats into a bathroom. After a moment, he begins to dance by himself.
+              The news of the three murders spreads, with some seeing it as an attack on the wealthy, while others support the act. Thomas Wayne speaks out and condemns it. Arthur later finds one of Penny's letters to Thomas, which indicates that Arthur is Thomas's son. Arthur goes to Wayne Manor where he meets young Bruce (Dante Pereira-Olson). He sticks his hands through the gate to make Bruce smile, but Alfred (Douglas Hodge) comes to intervene and tell Arthur to get lost. Arthur mentions his mother and her involvement with Thomas, but Alfred says he remembers Penny and that she was lying to him. Arthur tries to attack Alfred but ends up running away.
+              Two police detectives, Burke (Shea Wigham) and Garrity (Bill Camp), go to Arthur's apartment to question him on the subway murders due to the word that the suspect was wearing clown make-up, and they know Arthur lost his job earlier that day. Arthur denies any involvement and gets the detectives to leave. Not long after, Penny falls ill and is hospitalized. Sophie sits by Arthur as he tends to his mother. In the hospital, Arthur sees that Murray's show is playing a clip from his stand-up routine, but he is hurt to see that Murray only played it to mock Arthur.
+              Arthur finds Thomas at a public event and tries to confront him with the potential of him being his father. Arthur mentions Penny, whom Thomas also remembers. He says she was delusional and that there's no way Arthur could be his son. Arthur starts laughing in Thomas's face before Thomas punches Arthur's, and the man is thrown out of the building.
+              Arthur later receives a phone call from a rep for Murray's show. He is invited to appear as a guest, which Arthur accepts.
+              Seeking hard proof, Arthur goes to Arkham Asylum and speaks to a clerk, Carl (Brian Tyree Henry), who has a file on Penny. When Carl says he can't give Arthur the info he wants, Arthur snatches the file and runs away to read it. The reality is that Penny adopted Arthur after he was found abandoned, and she abused him. One part of the file mentions Arthur having a head injury, which is most likely what caused him laughing condition. Arthur returns to the hospital and tells Penny that he thought his life was a tragedy, but he sees it's a "fucking comedy". With that, he smothers Penny to death.
+              Arthur goes back home and breaks into Sophie's apartment. She sees him and is terrified, asking him to leave for the sake of her daughter. Through this, it is revealed that every other moment featuring Sophie was just in Arthur's head.
+              Arthur starts to get ready for his appearance on Murray's show. He is visited in his apartment by Randall and another former co-worker, named Gary (Leigh Gill). They offer condolences after they hear about Penny's death, but then they mention Burke and Garrity going to their apartments to question them about the subway murders. Arthur then brutally stabs Randall to death, but he lets a frightened Gary go home since he was the only one at Ha-Ha's that was nice to him. Arthur then dyes his hair green, puts on full clown make-up, and dons a burgundy suit.
+              Burke and Garrity find Arthur dancing in the street and move in to arrest him. Arthur runs, and they chase him into the subway train where dozens of other Gotham citizens are dressed like clowns after being inspired by the murders. As the detectives pursue Arthur, one clown gets in the way, and Burke accidentally shoots him dead. The clowns pull the detectives out of the subway and start beating them, allowing Arthur to get away.
+              At the TV station, Arthur meets Murray and his agent Gene (Marc Maron). Before he goes on, Arthur asks Murray to introduce him as "The Joker", since Murray referred to him as such when playing his clip. Arthur goes out as the show begins. He awkwardly tells Murray a joke before admitting to the subway murders. Murray and the audience slowly realize Arthur is serious. Arthur argues that the audience only cares for the victims because Thomas Wayne spoke for them, but anyone else like Arthur would be ignored and walked over. Murray and the audience grow angrier with Arthur, but so does he. Murray scolds Arthur, which escalates into Arthur snapping and blowing Murray's brains out in front of everyone. The audience runs away in terror, and the news of the murder immediately hits the airwaves.
+              Gotham is now overrun by rioting citizens dressed as clowns after hearing about what Arthur did. The Waynes leave a movie theater to find the chaos in the streets. Thomas takes Martha (Carrie Louise Putrello) and Bruce into an alley, but one clown follows them and tells Thomas he is getting what he deserves. With that, he shoots Thomas and Martha dead in front of Bruce. Meanwhile, Arthur has been arrested and is being taken by police, but clowns in an ambulance run into the car and free Arthur. The rioters then cheer Arthur on as he stands on a car and embraces their admiration, now that he has gotten the recognition he has long desired.
+              Some time later, Arthur is locked up in Arkham. He meets a new social worker (April Grace) and says he wants to tell her a joke, but she wouldn't get it. A few minutes later, Arthur then steps out of the room, leaving a trail of bloody footprints behind before he is chased around by orderlies.
+            </p>
+            <span onClick={this.offOverlay}>&times;</span>
+          </div>
+        </div>
+      </>
+    );
+  }
+}
+
+export default Synopsis;
