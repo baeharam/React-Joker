@@ -5,7 +5,7 @@ class Main extends Component {
   render() {
     return (
       <>
-        <main className="home">
+        <main className="main-home">
           <div className="l-wrapper">
             <section className="home__main">
               <h1>JOKER</h1>

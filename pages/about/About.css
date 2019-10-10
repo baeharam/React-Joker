@@ -1,11 +1,11 @@
-#about {
+.main-about {
   position: relative;
   height: 100vh;
   background: url('../../assets/images/about.jpg') no-repeat center;
   background-size: cover;
   overflow: hidden;
 }
-#about:after {
+.main-about:after {
   content: " ";
   position: absolute;
   left: 0;
@@ -15,9 +15,9 @@
   background-color: black;
   opacity: 0.2;
 }
-#about.overlay { overflow: visible; }
-#about.overlay .synopsis,
-#about.overlay .synopsis__inside {
+.main-about.overlay { overflow: visible; }
+.main-about.overlay .synopsis,
+.main-about.overlay .synopsis__inside {
   display: block;
   z-index: 4;
 }

@@ -14,7 +14,7 @@ class About extends Component {
   render() {
     return (
       <>
-        <main ref={this.mainRef} id="about">
+        <main ref={this.mainRef} className="main-about">
           <div className="l-wrapper">
             <Intro mainRef={this.mainRef} />
             <Gallery />
