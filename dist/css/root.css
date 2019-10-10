@@ -311,7 +311,7 @@ body { font-family: 'Playfair', serif; }
   padding-top: 43%;
   transform: translate(-50%, -50%);
 }
-.trailer__video-wrapper {
+.trailer__wrapper {
   position: absolute;
   left: 0;
   top: 0;
@@ -320,7 +320,7 @@ body { font-family: 'Playfair', serif; }
   transition: all 1s;
   cursor: pointer;
 }
-.trailer__video-wrapper:after {
+.trailer__wrapper:after {
   content: " ";
   position: absolute;
   left: 0;
@@ -329,16 +329,16 @@ body { font-family: 'Playfair', serif; }
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
-.trailer__video-wrapper.previous,
-.trailer__video-wrapper.next {
+.trailer__wrapper.previous,
+.trailer__wrapper.next {
   opacity: 0.5;
   height: 80%;
   top: 50%;
 }
-.trailer__video-wrapper.previous { transform: translate(-105%, -50%); }
-.trailer__video-wrapper.previous2 { transform: translate(-210%, -50%); }
-.trailer__video-wrapper.next { transform: translate(105%, -50%); }
-.trailer__video-wrapper.next2 { transform: translate(210%, -50%); }
+.trailer__wrapper.previous { transform: translate(-105%, -50%); }
+.trailer__wrapper.previous2 { transform: translate(-210%, -50%); }
+.trailer__wrapper.next { transform: translate(105%, -50%); }
+.trailer__wrapper.next2 { transform: translate(210%, -50%); }
 .trailer__title {
   position: absolute;
   bottom: -5%;
@@ -363,6 +363,13 @@ body { font-family: 'Playfair', serif; }
   cursor: pointer;
   z-index: 4;
 }
-.trailer__video-wrapper.playing .trailer__title { display: none; }
-.trailer__video-wrapper.playing .trailer__video { z-index: 4; }
-.trailer__video-wrapper.playing .trailer__play { display: none; }
+.trailer__wrapper.playing .trailer__title { display: none; }
+.trailer__wrapper.playing .trailer__video { z-index: 4; }
+.trailer__wrapper.playing .trailer__play { display: none; }
+.main-trailer {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+  position: relative;
+}
